@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/i-should-do-a-mobilefirst-site-stats-preview-card-component-ki0y18Xkrk](https://your-solution-url.com)
 - Live Site URL: [https://weakiam.github.io/stats-preview-card-component-frontendmentor/](https://your-live-site-url.com)
 
 ## My process
