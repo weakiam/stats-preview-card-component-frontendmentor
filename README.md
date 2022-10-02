@@ -51,6 +51,6 @@ I probably used too much CSS and I didn't refactor my code. It seems very ineffi
 
 ## Author
 
-- Linkedin - [Wiktor Wieczorkiewicz](https://www.linkedin.com/in/wiktor-wieczorkiewicz-0b987820a/)
+- LinkedIn - [Wiktor Wieczorkiewicz](https://www.linkedin.com/in/wiktor-wieczorkiewicz-0b987820a/)
 
 <h2 style="padding-bottom:110px;"></h1>
