@@ -1,0 +1,166 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.accent{
+    color: hsl(277, 64%, 61%);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin:  15% 0;
+}
+
+.cardbox{
+    padding: 50px 70px 30px 70px;
+}
+.card{
+    height: 446px;
+    width: 540px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px 0 0 8px;
+    
+
+}
+
+.title{
+    font-size: 2.15rem;
+}
+
+.paragraph{
+    font-size: 14px;
+    line-height: 25px;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin: 20px 40px 0 0;
+}
+
+.desktopimg{
+    border-radius: 0 8px 8px 0;
+}
+
+.statcontainer{
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+.statbox{
+    margin-right: 59px;
+    margin-top: 10px;
+}
+
+.stattitle{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.statdes{
+    margin: 6px 0 0 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.overlaydesk{
+    height: 446px;
+    width: 540px;
+    background-color: hsla(277, 64%, 31%, 0.6);
+    position: absolute;
+    border-radius: 0 8px 8px 0;
+
+
+}
+
+.overlaymobile{
+    height: 446px;
+    width: 540px;
+    background-color: hsla(277, 65%, 31%, 0.6);
+    position: absolute;
+    display: none;
+    border-radius: 8px 8px 0 0;
+
+}
+
+
+
+.mobileimg{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        text-align: center;
+    }
+    .box{
+        display: inline-block;
+    }
+
+    .cardbox{
+        padding: 20px 30px;
+        
+       
+    }
+
+    .mobileimg{
+        display: block;
+        width: 330px;
+        margin: 0;
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .desktopimg{
+        display: none;
+    }
+    .overlaydesk{
+        display: none;
+    }
+
+    .statcontainer{
+        display: inline-block;
+        margin-top: -7px;
+        
+    }
+
+    .statbox{
+        margin: 40px 0 40px 0;
+    }
+
+    .paragraph{
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .card{
+        height: 550px;
+        width: 330px;
+        border-radius: 0 0 8px 8px;
+        margin: 0;
+        padding: 0;
+        
+    
+        
+    
+    }
+    .title{
+        font-size: 1.75rem;
+    }
+    
+    .overlaymobile{
+        height: 242.3px;
+        width: 330px;
+        display: block;
+        
+
+}
+}
